@@ -1,0 +1,106 @@
+.side {
+    margin: 0px;
+    padding: 0px;
+}
+
+.row {
+    display: flex;
+}
+
+.my-nav{
+    margin-top: 30px;
+    z-index: 999;
+    margin-right:20px;
+}
+.my-carousel {
+    position: absolute;
+    top: 0px;
+}
+.my-icons{
+    z-index:999;
+    position: absolute;
+    right:60px;
+    bottom:0px;
+}
+.slide {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+body {
+    background-color: #FDE3D9;
+    height: 100%;
+}
+
+.download {
+    margin-left: 60px;
+    padding-top: 20px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.carousel-indicators {
+    margin-bottom: 90px;
+    margin-left: -360px;
+}
+
+#head-left {
+    padding: 0px;
+    margin-left: 60px;
+    width: 571px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+    font-size: 42px;
+    margin-top: 280px;
+}
+
+#para {
+    margin-left: 60px;
+    width: 440px;
+    padding-bottom: 20px;
+    text-align: left;
+    letter-spacing: -0.11px;
+    color: #6D6D6D;
+    opacity: 1;
+}
+
+.caption-carousel {
+    height: 124px;
+    width: 240px;
+    margin-left: -20px;
+    margin-bottom: 100px;
+}
+
+.head {
+    /*font-family: "BananaGrotesk-Semibold";*/
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.carousel-text {
+    /*font-family: 'BananaGrotesk-Light';*/
+    font-size: 16px;
+    letter-spacing: -0.11px;
+    color: #FFE8DF;
+    ;
+    opacity: 1;
+}
+
+.carousel-control-next-icon {
+    display: none;
+}
+
+.carousel-control-prev-icon {
+    display: none;
+}

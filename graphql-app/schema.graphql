@@ -1,0 +1,16 @@
+type Query{
+    title:String!
+    subtitle:String!
+    contacts:[Contact!]!
+}
+
+type Mutation{
+    post(name:String!,email:String!,message:String!):Contact!
+}
+
+type Contact{
+    id: ID!
+    name:String!
+    email:String!
+    message:String!
+}

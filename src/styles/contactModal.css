@@ -1,0 +1,82 @@
+.input-feild {
+  background-color: #ffffff;
+  border-radius: 30px;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.pad-60 {
+  padding-left: 30px;
+}
+
+.popup .modal-content {
+  background-color: #fde3d9;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+.label {
+  width: 30%;
+  text-align: left;
+  font-size: 12px;
+  padding-left: 35px;
+  padding-top: 16px;
+  color: #000000;
+}
+
+.desc {
+  margin-top: -10px;
+  color: #adb5bd;
+}
+.modal-header {
+  border-bottom: 0 none;
+}
+
+.modal-footer {
+  border-top: 0 none;
+}
+input,
+input::-webkit-input-placeholder {
+  font-size: 12px;
+}
+.my-modal {
+  height: 40%;
+  width: 60%;
+}
+.submit-button {
+  color: white;
+  background-color: black;
+  position: relative;
+  left: 73%;
+  width: 100px;
+  height: 50px;
+  border-width: 0;
+  border-radius: 25px;
+}
+.submit-button:hover {
+  background-color: black;
+}
+#last-row {
+  margin-right: 40px;
+  margin-top: -25px;
+}
+.info {
+  position: absolute;
+  left: 40px;
+  text-align: left;
+}
+.icons {
+  position: absolute;
+  right: 50%;
+}
+
+.feild {
+  height: 20px;
+  border: none;
+  border-color: transparent;
+}
+
+input[type="text"] {
+  border: none;
+}
